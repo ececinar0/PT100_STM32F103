@@ -30,7 +30,8 @@
 #include <stdbool.h>
 
 extern bool MAX31865_Sensor_Error;
-char temp[16]; //  yazı/karakter(6 bas.)+sayı(6bas.)+boşluk(1bas.)+birim(2bas.), Örn: Temp= 23 .76 °C
+char temp[16];
+//  yazı/karakter(6 bas.)+sayı(6bas.)+boşluk(1bas.)+birim(2bas.), Örn: Temp= 23 .76 °C
 float PT100_Temperature = 0.0f;
 unsigned long Time;
 
